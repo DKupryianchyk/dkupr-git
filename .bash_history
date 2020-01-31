@@ -1,101 +1,3 @@
-git version 
-exit
-notepad++
-exit
-notepad++
-exit
-pwd
-notepad++ .bash_profile
-notepad++ .bash_profile
-exit
-npp
-exit
-cat ~.gitconfig
- git config --global user.name "Daniil Kupryianchyk"
- git config --global user.email "dkuprum15@gmail.com"
-exit
-git ~/.gitconfig
-cat ~/.gitconfig
-git config --global core.editor "notepad++.exe -multiInst -nosession"
-git config --global --list
-git config --global --e
-git config --global -e 
-exit
-p4merge
-exit
-p4merge
-npp
-exit
-git config --global merge.tool p4merge
-git config --global mergetool.p4merge.path "C:/Program Files/Perforce/p4merge.exe"
-git config --global mergetool.prompt false
-clear
-git config --global diff.tool p4merge
-git config --global difftool.p4merge.path "C:/Program Files/Perforce/p4merge.exe"
-git config --global difftool.prompt false
-git config --global --list
-git config --global -e
-clear
-git config --global user.email "DKupryianchyk@gomel.iba.by" 
-git config --global --list
-git config --global core.autocrlf "true"
-exit
-shh-keygen
-%HOMEPATH%/.ssh/id_rsa D:\Key\.ssh\my_public
-%HOMEPATH%/.ssh/id_rsa D:\Key\my_public
-%HOMEPATH%/.ssh/id_rsa c:\Users\Daniil\key
-git config --global --list
-clear
-git config --global --list
-clear
-git clone ssh://DKupryianchyk@gml-jbpm.gomel.iba.by:29418/DKupryianchyk-Git && scp -p -P 29418 DKupryianchyk@gml-jbpm.gomel.iba.by:hooks/commit-msg DKupryianchyk-Git/.git/hooks/
-git clone ssh://dkupryianchyk@gml-jbpm.gomel.iba.by:29418/dkupryianchyk-git && scp -p -P 29418 dkupryianchyk@gml-jbpm.gomel.iba.by:hooks/commit-msg dkupryianchyk-git/.git/hooks/
-clear
-git clone ssh://dkupryianchyk@gml-jbpm.gomel.iba.by:29418/dkupryianchyk-git scp -p -P 29418 dkupryianchyk@gml-jbpm.gomel.iba.by:hooks/commit-msg dkupryianchyk-git/.git/hooks/
-exit
-echo "Hello wolrld"
-git clone ssh://dkupryianchyk@gml-jbpm.gomel.iba.by:29418/dkupryianchyk-git
-git clone ssh://dkupryianchyk@gml-jbpm.gomel.iba.by:29418/dkupryianchyk-git && scp -p -P 29418 dkupryianchyk@gml-jbpm.gomel.iba.by:hooks/commit-msg dkupryianchyk-git/.git/hooks/
-clear
-git clone ssh://dkupryianchyk@gml-jbpm.gomel.iba.by:29418/dkupryianchyk-git&& scp -p -P 29418 dkupryianchyk@gml-jbpm.gomel.iba.by:hooks/commit-msg dkupryianchyk-git/.git/hooks/
-git clone ssh://dkupryianchyk@gml-jbpm.gomel.iba.by:29418/dkupryianchyk-git && scp -p -P 29418 dkupryianchyk@gml-jbpm.gomel.iba.by:hooks/commit-msg dkupryianchyk-git/.git/hooks/
-cd ~/.ssh
-ls
-cat ~/.ssh/id_rsa.pub
-back
-exit
-git clone ssh://dkupryianchyk@gml-jbpm.gomel.iba.by:29418/dkupryianchyk-git && scp -p -P 29418 dkupryianchyk@gml-jbpm.gomel.iba.by:hooks/commit-msg dkupryianchyk-git/.git/hooks/
-git clone ssh://dkupryianchyk@gml-jbpm.gomel.iba.by:29418/dkupryianchyk-git && scp -p -P 29418 dkupryianchyk@gml-jbpm.gomel.iba.by:hooks/commit-msg dkupryianchyk-git/.git/hooks/
-cd
-git clone ssh://dkupryianchyk@gml-jbpm.gomel.iba.by:29418/dkupryianchyk-git && scp -p -P 29418 dkupryianchyk@gml-jbpm.gomel.iba.by:hooks/commit-msg dkupryianchyk-git/.git/hooks/
-cd ~/.ssh
-is
-ls
-ls
-ls
-git clone ssh://dkupryianchyk@gml-jbpm.gomel.iba.by:29418/dkupryianchyk-git && scp -p -P 29418 dkupryianchyk@gml-jbpm.gomel.iba.by:hooks/commit-msg dkupryianchyk-git/.git/hooks/
-clear
-exit
-git push
-clear
-git clone https://gml-jbpm.gomel.iba.by/gerrit/dkupryianchyk-git
-cd
-git clone https://gml-jbpm.gomel.iba.by/gerrit/dkupryianchyk-git
-vim /etc/ssl/certs/ca-certificates.crt
-vim /etc/ssl/certs/ca-
-vim /etc/ssl/certs/ca-certificates.crt
-git clone https://github.com/DKupryianchyk/dkupryianchyk-git && scp -p -P 29418 https://gml-jbpm.gomel.iba.by/gerrit/#/admin/projects/dkupryianchyk-git
-ls -l
-cd dkupryianchyk-git/
-ll
-cd
-$ git clone ssh://vpupkin@gml-jbpm.gomel.iba.by:29418/vpupki
-$ git clone ssh://vpupkin@gml-jbpm.gomel.iba.by:29418/vpupki
-$ git clone ssh://dkupryianchyk@gml-jbpm.gomel.iba.by:29418/dkupryianchyk-git && scp -p -P 29418 dkupryianchyk@gml-jbpm.gomel.iba.by:hooks/commit-msg dkupryianchyk-git/.git/hooks/
-git clone ssh://dkupryianchyk@gml-jbpm.gomel.iba.by:29418/dkupryianchyk-git && scp -p -P 29418 dkupryianchyk@gml-jbpm.gomel.iba.by:hooks/commit-msg dkupryianchyk-git/.git/hooks/
-rm -rf/dkupryianchyk-git
-ll
-rm -rf dkupryianchyk-git
 ll
 git clone ssh://dkupryianchyk@gml-jbpm.gomel.iba.by:29418/dkupryianchyk-git && scp -p -P 29418 dkupryianchyk@gml-jbpm.gomel.iba.by:hooks/commit-msg dkupryianchyk-git/.git/hooks/
 cd dkupryianchyk-git
@@ -335,4 +237,264 @@ git status
 git add .
 git status
 git commit
+exit
+cd
+pwd
+cp projects/starter-web/
+cd projects/starter-web/
+ls
+git status
+cd level1/
+ls
+notepad++ level1-file.txt 
+git status
+git add level1-file.txt 
+git status
+notepad++ level1-file.txt 
+clear
+git status
+git reset HEAD level1-file.txt
+git status
+notepad++ level1-file.txt 
+clear
+git status
+git checkout -- level1-file.txt
+git status
+notepad++ level1-file.txt 
+clear
+notepad++ level1-file.txt 
+git status
+git add level1-file.txt 
+git status
+clear
+git status
+git restore --staged level1-file.txt
+git status
+notepad++ level1-file.txt 
+git restore level1-file.txt
+git status
+notepad++ level1-file.txt 
+clear
+cd ../..
+cd starter-web/
+ls
+cd level1/level2/level3
+wpd
+pwd
+clear
+ls
+git status
+git mv level3-file.txt level3.txt
+ls
+git status
+git commit -m "renaming level3 file"
+cd ..
+clear
+pwd
+ls
+mv level2-file.txt level2.txt
+ls
+git status
+git add -a
+git status
+git add -A
+git status
+git commit 
+clear
+ls
+git mv level2.txt 2.txt
+git status
+git mv 2.txt level2.txt
+ls
+git status
+clear
+ls
+git mv level2.txt level3
+ls
+cd level3
+ls
+git status
+cd ..
+git status
+git commit
+ls
+cd level3
+ls
+git status
+mv level2.txt ..
+ls
+cd ..
+pwd
+ls
+git status
+git add -A
+git status
+git commit
+clear
+cd ..
+pwd
+clear
+ls
+git 
+git status
+git add level1.txt
+git add -u
+git status
+git commit 
+clear
+cd ..
+notepad++ doomed.txt
+ды
+ls
+git status
+git rm doomed.txt
+rm doomed.txt
+ls
+git status
+clear
+git ls-files
+ды
+ld
+ls
+git rm newfile.txt 
+ls
+git status
+git commit -m "deleting new file"
+git status
+clear
+ls
+git rm hipster.txt 
+ls
+git status
+git restore --stage hipster.txt
+ls
+git status
+git restore hipstre.txt
+git restore hipster.txt
+ls
+git status
+clear
+ls
+rm hipster.txt 
+ls
+git status
+git add -A
+git status
+git commit
+git status
+clear
+ls
+rm -rf level1
+ls
+git status
+git add -A
+git status
+git commit -m "deleting lv1"
+git status
+clear
+git help log
+git status
+clear
+got log
+git log
+git log --abbrev-commit
+git log --oneline --graph --decorate
+q
+git log --since="3 days ago"
+clear
+ls
+git log --follow -- level1/level2/level3
+clear
+git show 
+clear
+ls
+git status
+git log --all --graph --decorate --oneline
+git hist
+git config --global alias.hist "log -all --graph -- decoarate --oneline"
+git hist
+git config alias.hist "log --all --graph"
+git hist
+notepad++ ~/.gitconfig
+git hist
+notepad++ ~/.gitconfig
+сдуфк
+clear
+ls
+git status
+ls -al
+clear
+ls
+notepad++ acces.log
+ls
+git status
+notepad++ .gitignore
+git status
+ls
+mkdir log
+mv acces.log log
+ls
+cd log
+ls
+cp acces.log acces.2013-1-1
+cd..
+cd ..
+git status
+notepad++ .gitignore
+git status
+git commit -am "excluding log files"
+git status
+git rm .gitignore
+rm .gitignore
+git status
+rm log/
+ls
+rm -rf log/
+git status
+ls
+clear
+ls
+git status
+clear
+git pull origin master
+git push origin master
+clear
+cd ..
+cd ..
+git log --all --graph --decorate --online
+ls
+cd projects
+git log --all --graph --decorate --online
+ls
+cd starter-web/
+git log --all --graph --decorate --online
+git log --all --graph --decorate
+cd
+ls
+cd projects/dkupr-git/
+git log --all --graph --decorate
+git status
+git log --all --graph
+cd ..
+cd starter-web/
+git log --all --graph
+history
+HISTFILE
+echo $HISTSIZE
+echo $HISTFILE
+clear
+cd ..
+cd ..
+pwd
+cd projects/
+ls
+cd dkupr-git/
+ls
+git status
+git add
+git add .bash_history
+git status
+git commit -m "История Раздел 5. Основные команды"
+git status
+git push origin master
 exit
