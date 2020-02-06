@@ -1,0 +1,180 @@
+  303  notepad++ README1.md
+  304  git status
+  305  git add README1.md 
+  306  git commit -m "add readme1"
+  307  git push origin master
+  308  notepad++ README1.md
+  309  git commit -am "add deployment"
+  310  git status
+  311  git push origin master
+  312  notepad++ README1.md
+  313  git status
+  314  git commit -am "add ..."
+  315  notepad++ README1.md
+  316  git commit -am "add ........"
+  317  notepad++ README1.md
+  318  git add README1.md 
+  319  git status
+  320  notepad++ README1.md
+  325  git diff
+  326  clear
+  327  git difftool
+  328  git diff HEAD
+  329  git difftool HEAD
+  330  clear
+  331  git diff --staged HEAD
+  332  git difftool --staged HEAD
+  333  git difftool --staged HEAD
+  336   notepad++ simple.html 
+  337  git status
+  338  git diff
+  339  git diff -- README1.md
+  340  git difftool -- README1.md
+  341  clear
+  342  git log --oneline
+  343  git diff a412e7e HEAD 
+  344  git diff HEAD HEAD^
+  345  git difftool HEAD HEAD^
+  346  clear
+  347  git log --oneline
+  348  git diff b09e6d9 964135b
+  349  git difftool b09e6d9 964135b
+  350  q
+  351  clear
+  352  git diff master origin/master
+  353  git difftool master origin/master
+  354  clear
+  355  git status
+  356  git add .
+  357  git status
+  358  git commit -m "updating repo with changes from compare section"
+  359  git status
+  360  git pull
+  361  git push origin master
+  362  exit
+  363  cd
+  364  cd dkupryianchyk-git/
+  365  git branch -r
+  366  ssh -p 29418 dkupryianchyk@gml-jbpm.gomel.iba.by gerrit create-branch dkupryianchyk-git Section4 master
+  367  git fetch
+  368  git branch -r
+  369  git checkout Tasks 
+  370  ls
+  371  cd Topic4
+  372  ls
+  373  cd ../..
+  374  cd dkupryianchyk-git/
+  375  git checkout Section4
+  376  ls
+  377  mkdir Section4
+  378  ls
+  379  cd Section4
+  380  git checkout Tasks Topic4/Task2.md
+  381  ls
+  382  cd ..
+  383  git checkout Tasks Topic4/Task2.md
+  384  ls
+  385  cd Section3
+  386  ls
+  387  cd ..
+  388  ls
+  389  git mv Topic4 Section4
+  390  l
+  391  ls
+  392  git mv Topic3 Section3
+  393  ls
+  394  cd Section3
+  395  ls
+  396  cd Topic3/
+  397  ls
+  398  cd ../..
+  399  ls
+  400  cd Section4
+  401  ls
+  402  cd ..
+  403  git status
+  404  ls
+  405  cd Section3
+  406  ls
+  407  git mv Topic3 ..
+  408  cd ..
+  409  ls
+  410  git status
+  411  git checkout master
+  412  ls
+  413  git checkout Section4
+  414  git difftool Section4..master
+  415  git diff Section4..master
+  416  git diff master..Section4
+  417  git checkout master
+  418  git diff master..Section4
+  419  git diff master Section4
+  420  git checkout Section4
+  421  git status
+  422  git diff Section4...master
+  423  git diff section4..master
+  424  diff
+  425  diff --help
+  426  git status
+  427  git diff section4 master
+  428  git diff Section4--master
+  429  git diff Section4 -- master
+  430  git diff Section4... -- master...
+  431  git log --oneline
+  432  git diff origin/Section4..origin/master
+  433  git diff 
+  434  git diff HEAD
+  435  git difftool HEAD
+  436  git diff Section3..master
+  437  git diff Section4..master
+  438  git commit -m "Git -- Task2 -- Create branch Section4 and add Topic4 derictory"
+  439  clear
+  440  git status
+  441  git diff Section4..master
+  442  ls
+  443  cd Section4
+  444  ls
+  445  notepad++ diff_b2b.txt
+  446  git status
+  447  git add diff_b2b.txt 
+  448  git status
+  449  cd ..
+  450  notepad++ text.txt
+  451  git add text.txt 
+  452  git status
+  453  ls
+  454  git mv text.txt Section4
+  455  ls
+  456  git status
+  457  cd Section4
+  458  ls
+  459  notepad++ text.txt 
+  460  git status
+  461  clear
+  462  git diff
+  463  git difftool
+  465  notepad++ diff_b2b.txt 
+  466  clear
+  467  notepad++ diff_wd2sa.txt
+  468  git diff
+  470  notepad++ diff_wd2sa.txt
+  471  git status
+  472  git add .
+  473  git status
+  474  git commit -m "Git -- Topic4/Task2 -- compare working directory and staging area"
+  475  git status
+  476  notepad++ text.txt 
+  477  git status
+  478  git commit -am "Git -- Topic4/Task2 -- adding new code to file.txt"
+  479  git status
+  480  git diff HEAD HEAD^
+  481  git log --oneline
+  482  git diff cb49fbb 335f60f
+  484  notepad++ diff_c2c_1.txt
+  485  git diff HEAD HEAD^^
+  486  git diff cb49fbb 335f60f
+  487  git diff cb49fbb 4e3bd3b
+  490  notepad++ diff_c2c_2.txt 
+  492  git add .
+  494  git commit -m "Git -- Topic4/Task2 -- compare current commit with previous and one before it"
+  496  git push origin HEAD:refs/for/Section4
