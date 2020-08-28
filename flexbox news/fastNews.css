@@ -2,17 +2,28 @@
     margin: 0;
     padding: 0;
 }
-.nav{     
-    height: 50px;
+.nav{
     background-color: #40E0D0;
     display: flex;
     flex-direction: row;
     justify-content: start;
 }
 .nav .login{
-   margin-left: 68%;
+    width: 100%;
+    text-align: end;
 }
 .nav>button{
+    background-color: #40E0D0;
+    text-transform: uppercase;
+    border: none;
+    margin: 15px;
+    outline: none;
+    transition: all 0.5s;
+    font-weight: 800;
+    color: white;
+    font-family: Georgia, serif;
+}
+.nav>div>button{
     background-color: #40E0D0;
     text-transform: uppercase;
     border: none;
@@ -27,45 +38,46 @@
     color: black;
     background:  #40E0D0;
 }
-.log{
-    align-self: end;
+.container_logo{
+    width: 50%;
 }
-.logoFN{
+.container_logo_right{
+    width: 50%;
+}
+.logo_fast_news{
+    display: flex;
     font-family: 'Lucida Sans', Verdana, sans-serif;
     padding-left: 10px;
     border-bottom: solid 1px gray;
 }
-#logoF{
+.logo_fast{
     font-weight: normal;
 }
-.container1{
+.container_main{
     display: flex;
     margin: 20px;
     border-bottom: 2px solid #40E0D0;
 }
-.container1>div{
+.container-main>div{
     width: 50%;
    
 }
-
-
-#right{
+#rightPart{
     display: flex;
     flex-direction: column;
     height: 100%;
     margin-left: 13px;
 }
 
-#oneR{
+#firstRightPart{
     height: 80%;
 }
 
-#twoR{
+#secondRightPart{
     display: flex;
     height: 80%;
 }
 #rightLeft{
-    
     width: 70%;
     border-right: 1px solid gray;
 }
@@ -83,25 +95,24 @@
 .triple>div{
     margin-right: 10px;
 }
-
-.botBord{
+.bottomBorder{
     padding-bottom: 15px;
     border-bottom: 1px solid gray;
 }
-.mTop{
-    margin-top: 20px;
+.marginTop{
+    margin-top: 2%;
 }
-
-
-
-#left{
+.marginBottom{
+    margin-bottom: 2%;
+}
+#leftPart{
     display: flex;
     flex-direction: column;
     height: 100%;
     border-right: 1px solid grey;
 }
 
-#oneL{
+#firstLeftPart{
     width: 100%;
     margin-bottom: 20px;
 
@@ -143,28 +154,25 @@ a{
     text-decoration: none;
 }
 
-#twoL{
+#secondLeftPart{
     display: flex;
 }
-#firstTwoL{
+#firstLeft{
     margin: 10px;
     width: 40%;
 }
-#secondTwoL{
+#secondLeft{
     width: 60%;
     margin: 10px;
 }
 
-#threeL{
+#thirdPartLeft{
     display: flex;
 }
 .footer{
     background-color: white;
     text-align: center;
     padding-bottom: 15px;
-}
-#mLeft{
-    margin-left: 10%;
 }
 /* @media  (max-width: 1400px){
     .nav>.login{
@@ -182,3 +190,47 @@ a{
         display: none;
     }
 } */
+@media (max-width: 1000px){
+    .container_logo_right{
+       display: none;
+    }
+    .text{
+        display: none;
+    }
+    .triple{
+        display: flex;
+        flex-direction: column;
+    }
+   .image-none{
+       display: none;
+   }
+   .images{
+       display: none;
+   }
+
+  
+}
+@media (max-width:700px){
+    .container-main{
+        background: black;
+    }
+    .leftPart{
+        background: black;
+    }
+    #secondLeftPart{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .imagesMedvedev{
+        display: none;
+    }
+   h4{
+        text-align: end;
+        
+   }
+   p{
+        text-align: end;
+        
+   }
+}
